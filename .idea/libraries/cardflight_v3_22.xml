@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="cardflight-v3.22">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/platforms/android/build/intermediates/jniLibs/debug/cardflight-v3.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

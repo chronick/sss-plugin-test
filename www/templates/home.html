@@ -1,0 +1,12 @@
+<ion-view view-title={{title}}>
+  <ion-content class="padding" style="background: black;">
+    <h2>Hello</h2>
+    <div ng-if="toastNotification" class="toast-notifs fade-in">
+      <div class="notif-content"> <i class="icon ion-information-circled"></i>
+        <span>{{toastNotification}}</span>
+      </div>
+    </div>
+    <button ng-click='manualSwipe()'>Manual Entry</button>
+    <button ng-click='cardSwipe()'>Swipe Entry</button>
+  </ion-content>
+</ion-view>
